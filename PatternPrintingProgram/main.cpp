@@ -1,0 +1,57 @@
+#include"prototype.h"
+int main()
+{
+	int x, y,num;
+	printf("enter the row number");
+	scanf_s("%d", &x);
+	printf("enter the number of column");
+	scanf_s("%d", &y);
+	printf("enter the number of times");
+	scanf("%d",&num);
+	pattern1(num);
+	printf("-----------------------------------\n");
+	pattern2(num);
+	printf("-----------------------------------\n");
+	pattern3(num);
+	printf("-----------------------------------\n");
+	pattern4(num);
+	printf("-----------------------------------\n");
+	pattern5(num);
+	printf("-----------------------------------\n");
+	pattern6(num);
+	printf("-----------------------------------\n");
+	pattern7(x,y);
+	printf("-----------------------------------\n");
+	pattern8(x,y);
+	printf("-----------------------------------\n");
+	pattern9(x,y);
+	printf("-----------------------------------\n");
+	pattern10(x,y);
+	printf("-----------------------------------\n");
+	pattern11(x,y);
+	printf("-----------------------------------\n");
+	pattern12(x,y);
+	printf("-----------------------------------\n");
+	pattern13(x,y);
+	printf("-----------------------------------\n");
+	pattern14(x,y);
+	printf("-----------------------------------\n");
+	pattern15(x,y);
+	printf("-----------------------------------\n");
+	pattern16(x,y);
+	printf("-----------------------------------\n");
+	pattern17(x,y);
+	printf("-----------------------------------\n");
+	pattern18(x,y);
+	printf("-----------------------------------\n");
+	pattern19(x,y);
+	printf("-----------------------------------\n");
+	pattern20(x,y);
+	printf("-----------------------------------\n");
+	pattern21(x,y);
+	printf("-----------------------------------\n");
+	pattern22(x,y);
+	printf("-----------------------------------\n");
+	pattern23(num);
+	return 0;
+}
